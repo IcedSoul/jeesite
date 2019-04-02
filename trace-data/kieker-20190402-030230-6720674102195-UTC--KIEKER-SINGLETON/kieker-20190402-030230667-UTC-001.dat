@@ -1,0 +1,6 @@
+$0;1554174150665389924;1.13;KIEKER-SINGLETON;icedsoul-PC;1;false;0;NANOSECONDS;0
+$1;1554174151276249152;public abstract void org.apache.shiro.cache.CacheManagerAware.setCacheManager(org.apache.shiro.cache.CacheManager);<no-session-id>;1346435551095422977;1554174151253933354;1554174151275974920;icedsoul-PC;0;0
+$1;1554174151288807540;public abstract void org.apache.shiro.cache.CacheManagerAware.setCacheManager(org.apache.shiro.cache.CacheManager);<no-session-id>;1346435551095422978;1554174151277289896;1554174151288799347;icedsoul-PC;0;0
+$1;1554174151300713424;public abstract void org.apache.shiro.cache.CacheManagerAware.setCacheManager(org.apache.shiro.cache.CacheManager);<no-session-id>;1346435551095422979;1554174151289153140;1554174151300703884;icedsoul-PC;1;1
+$1;1554174151300745648;public abstract void org.apache.shiro.cache.CacheManagerAware.setCacheManager(org.apache.shiro.cache.CacheManager);<no-session-id>;1346435551095422979;1554174151288890504;1554174151300743161;icedsoul-PC;0;0
+$1;1554174152265362549;public abstract void org.apache.shiro.util.Destroyable.destroy() throws java.lang.Exception;<no-session-id>;1346435551095422980;1554174152262300126;1554174152265357724;icedsoul-PC;0;0
