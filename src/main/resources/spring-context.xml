@@ -109,5 +109,7 @@
 		<property name="username" value="${jdbc.username}"/>
 		<property name="password" value="${jdbc.password}"/>
 	</bean>-->
+
+	<import resource="aop.xml"/>
 	
 </beans>
