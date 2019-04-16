@@ -125,16 +125,5 @@
 	</bean>
 
 	<bean id="opEMII" class="kieker.monitoring.probe.spring.executions.OperationExecutionMethodInvocationInterceptor" />
-
-	<!--<aop:aspectj-autoproxy />-->
-
-	<!--&lt;!&ndash;注意！如果service目录变了，需要改这里的内容，否则会报错&ndash;&gt;-->
-	<!--&lt;!&ndash;proxy-target-class 为flase，被代理类是基于jdk的动态代理，如果为true，被代理类基于cglib动态代理&ndash;&gt;-->
-	<!--<aop:config proxy-target-class="true">-->
-		<!--&lt;!&ndash; 只监控 com.thinkgem.jeesite下面所有public方法&ndash;&gt;-->
-		<!--<aop:advisor advice-ref="opEMII" pointcut="execution(public * com.thinkgem.jeesite..*.*(..))"/>-->
-		<!--&lt;!&ndash; 监控所有public方法 &ndash;&gt;-->
-		<!--&lt;!&ndash;<aop:advisor advice-ref="opEMII" pointcut="execution(public * *(..))"/>&ndash;&gt;-->
-	<!--</aop:config>-->
 	
 </beans>
