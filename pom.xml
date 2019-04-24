@@ -65,6 +65,14 @@
 			<name>Jeesite Repository</name>
 			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
 		</repository>
+
+		<repository>
+			<id>jsqlparser-snapshots</id>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+		</repository>
 		
 	</repositories>
 	
@@ -608,9 +616,15 @@
 		</dependency>
 
 		<dependency>
-			<groupId>net.kieker-monitoring</groupId>
+			<groupId>com.github.jsqlparser</groupId>
+			<artifactId>jsqlparser</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>cn.icedsoul</groupId>
 			<artifactId>kieker</artifactId>
-			<version>1.13</version>
+			<version>1.0</version>
 			<scope>runtime</scope>
 		</dependency>
 		
