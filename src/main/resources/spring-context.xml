@@ -116,6 +116,7 @@
 	</bean>
 
 	<bean id="opEMII" class="kieker.monitoring.probe.spring.executions.OperationExecutionMethodInvocationInterceptor">
+		<!--<property name="daoBuilderBean" ref="daoBuilder"/>-->
 		<property name="mybatisDaoBuilder" ref="daoBuilder"/>
 	</bean>
 

@@ -124,6 +124,12 @@
 		<property name="maxUploadSize" value="${web.maxUploadSize}" />  
 	</bean>
 
-	<bean id="opEMII" class="kieker.monitoring.probe.spring.executions.OperationExecutionMethodInvocationInterceptor" />
-	
+
+	<bean id="opEMII" class="kieker.monitoring.probe.spring.executions.OperationExecutionMethodInvocationInterceptor">
+	</bean>
+
+	<aop:config>
+		<aop:advisor advice-ref="opEMII" pointcut="execution(public * com.thinkgem.jeesite..*.web..*.*(..))"/>
+	</aop:config>
+
 </beans>

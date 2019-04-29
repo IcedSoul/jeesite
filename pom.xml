@@ -622,10 +622,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>cn.icedsoul</groupId>
+			<groupId>cn.dingding</groupId>
 			<artifactId>kieker</artifactId>
 			<version>1.0</version>
-			<scope>runtime</scope>
 		</dependency>
 		
 		<!-- 自定义jar依赖包
