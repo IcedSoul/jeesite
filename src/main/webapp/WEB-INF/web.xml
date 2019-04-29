@@ -228,4 +228,17 @@
 		<url-pattern>/∗</url-pattern>
 	</filter-mapping>
 
+	<servlet>
+		<servlet-name>KiekerScenario</servlet-name>
+		<servlet-class>kieker.tools.scenario.ScenarioServlet</servlet-class>
+		<init-param>
+			<param-name>allow</param-name>
+			<param-value>127.0.0.1</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KiekerScenario</servlet-name>
+		<url-pattern>/scenario/*</url-pattern>
+	</servlet-mapping>
+
 </web-app>
